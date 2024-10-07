@@ -1,0 +1,11 @@
+1. Ingested data in Azure Data Factory using HTTP method. Here we have ingested data from github raw dataset.
+
+2. We have saved the data in Azure Data Lake Gen2 using ADF pipeline. Followed directory name for each dataset like Athletes, Medals, Teams, etc.
+
+3. Transormed the data using Azure Databricks.
+
+4. After transforming, we have saved the data in Data Lake Gen2 in transformed-data folder.
+
+5. Used Azure Synapse Analytics for Data Warehousing and detailed Analytics of the data allowing deep exploration and insights.
+
+6. Finally use Power-BI to visualize the data insights.
